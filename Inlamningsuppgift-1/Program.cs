@@ -20,5 +20,120 @@ class Program
         Console.WriteLine("Enter third term: ");
         term3 = Convert.ToInt32(Console.ReadLine());
 
+        if (operator1.Equals("+"))
+        {
+            if (operator2.Equals("+"))
+            {
+                Console.WriteLine("{0} + {1} + {2} = {3}", term1, term2, term3, term1 + term2 + term3);
+            }
+        }
+        if (operator1.Equals("+"))
+        {
+            if (operator2.Equals("-"))
+                {
+                Console.WriteLine("{0} + {1} - {2} = {3}", term1, term2, term3, term1 + term2 - term3);
+            }
+        }
+        if (operator1.Equals("+"))
+        {
+            if (operator2.Equals("*"))
+                {
+                Console.WriteLine("{0} + {1} * {2} = {3}", term1, term2, term3, term1 + term2 * term3);
+            }
+        }
+        if (operator1.Equals("+"))
+        {
+            if (operator2.Equals("/"))
+                {
+                Console.WriteLine("{0} + {1} / {2} = {3}", term1, term2, term3, term1 + term2 / term3);
+            }
+        }
+
+        if (operator1.Equals("-"))
+        {
+            if (operator2.Equals("+"))
+            {
+                Console.WriteLine("{0} - {1} + {2} = {3}", term1, term2, term3, term1 - term2 + term3);
+            }
+        }
+        if (operator1.Equals("-"))
+        {
+            if (operator2.Equals("-"))
+            {
+                Console.WriteLine("{0} - {1} - {2} = {3}", term1, term2, term3, term1 - term2 - term3);
+            }
+        }
+        if (operator1.Equals("-"))
+        {
+            if (operator2.Equals("*"))
+            {
+                Console.WriteLine("{0} - {1} * {2} = {3}", term1, term2, term3, term1 - term2 * term3);
+            }
+        }
+        if (operator1.Equals("-"))
+        {
+            if (operator2.Equals("/"))
+            {
+                Console.WriteLine("{0} - {1} / {2} = {3}", term1, term2, term3, term1 - term2 / term3);
+            }
+        }
+
+        if (operator1.Equals("*"))
+        {
+            if (operator2.Equals("+"))
+            {
+                Console.WriteLine("{0} * {1} + {2} = {3}", term1, term2, term3, term1 * term2 + term3);
+            }
+        }
+        if (operator1.Equals("*"))
+        {
+            if (operator2.Equals("-"))
+            {
+                Console.WriteLine("{0} * {1} - {2} = {3}", term1, term2, term3, term1 * term2 - term3);
+            }
+        }
+        if (operator1.Equals("*"))
+        {
+            if (operator2.Equals("*"))
+            {
+                Console.WriteLine("{0} * {1} * {2} = {3}", term1, term2, term3, term1 * term2 * term3);
+            }
+        }
+        if (operator1.Equals("*"))
+        {
+            if (operator2.Equals("/"))
+            {
+                Console.WriteLine("{0} * {1} / {2} = {3}", term1, term2, term3, term1 * term2 / term3);
+            }
+        }
+
+        if (operator1.Equals("/"))
+        {
+            if (operator2.Equals("+"))
+            {
+                Console.WriteLine("{0} / {1} + {2} = {3}", term1, term2, term3, term1 / term2 + term3);
+            }
+        }
+        if (operator1.Equals("/"))
+        {
+            if (operator2.Equals("-"))
+            {
+                Console.WriteLine("{0} / {1} - {2} = {3}", term1, term2, term3, term1 / term2 - term3);
+            }
+        }
+        if (operator1.Equals("/"))
+        {
+            if (operator2.Equals("*"))
+            {
+                Console.WriteLine("{0} / {1} * {2} = {3}", term1, term2, term3, term1 / term2 * term3);
+            }
+        }
+        if (operator1.Equals("/"))
+        {
+            if (operator2.Equals("/"))
+            {
+                Console.WriteLine("{0} / {1} / {2} = {3}", term1, term2, term3, term1 / term2 / term3);
+            }
+        }
     }
 }
