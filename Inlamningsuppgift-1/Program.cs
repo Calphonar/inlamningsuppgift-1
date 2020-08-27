@@ -135,5 +135,6 @@ class Program
                 Console.WriteLine("{0} / {1} / {2} = {3}", term1, term2, term3, term1 / term2 / term3);
             }
         }
+        Console.Read();
     }
 }
