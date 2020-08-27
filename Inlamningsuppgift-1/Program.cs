@@ -1,10 +1,12 @@
 ﻿using System;
 
 
-    class Program
+class Program
+{
+    static void Main()
     {
-        static void Main()
-        {
-        
-        }
+        int term1, term2, term3;
+        string operator1;
+        string operator2;
     }
+}
